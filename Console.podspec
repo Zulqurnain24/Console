@@ -13,8 +13,8 @@ Pod::Spec.new do |s|
   s.source_files  = "Source/**/*.swift"
   s.swift_version       = "4.2"
   s.frameworks   = 'Foundation', 'Console'
-  s.source_files = "Console/**/*.swift", "Console/**/*.framework"
-  s.resources = 'Console/**/*.png'
+  s.source_files = "Console/**/*.swift"
+  s.resources = 'Console/**/*.png', 'Console/**/*.framework'
 
 
 end
