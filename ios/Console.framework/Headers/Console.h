@@ -2,8 +2,8 @@
 //  Console.h
 //  Console
 //
-//  Created by trial on 7/11/19.
-//  Copyright © 2019 trial. All rights reserved.
+//  Created by Trial on 2019. 07. 18.
+//  Copyright © 2019. Trial All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -16,4 +16,5 @@ FOUNDATION_EXPORT const unsigned char ConsoleVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Console/PublicHeader.h>
 
+#import <Console/Console.h>
 
