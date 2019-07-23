@@ -12,6 +12,9 @@ Pod::Spec.new do |s|
   s.source       = { :path => '.' }
   s.source_files  = "Source/**/*.swift"
   s.swift_version       = "4.2"
+  s.frameworks   = 'Foundation'
+  s.source_files = "Console/**/*.swift"
+  s.resources = 'Console/**/*.png'
 
 
 end
