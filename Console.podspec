@@ -8,10 +8,10 @@ Pod::Spec.new do |s|
   s.license             = 'MIT'
   s.author              = 'Mohammad Zulqurnain'
   s.platform            = :ios, '12.0'
-  s.source              = { :git => 'https://github.com/Zulqurnain24/Console.git', :tag => "master' }
+  s.source              = { :git => 'https://github.com/Zulqurnain24/Console.git', :tag => 'master' }
   s.source_files  = 'Console'
   s.swift_version       = '4.2'
-  s.resources = "Console/**/*.png'
+  s.resources = 'Console/**/*.png'
 
 
 end
