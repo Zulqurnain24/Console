@@ -9,10 +9,9 @@ Pod::Spec.new do |s|
   s.author              = "Mohammad Zulqurnain"
   s.platform            = :ios, "12.0"
   s.source              = { :git => "https://github.com/Zulqurnain24/Console/tree/master/Console.git", :tag => "master" }
-  s.source_files  = "Source/**/*.swift"
+  s.source_files  = "Console"
   s.swift_version       = "4.2"
-  s.frameworks   = 'Foundation', 'Console'
-  s.resources = 'Console/**/*.png', 'Console/**/*.framework'
+  s.resources = "Console/**/*.png'
 
 
 end
